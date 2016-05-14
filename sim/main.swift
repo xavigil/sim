@@ -13,7 +13,7 @@ import Foundation
 let doc : String = "iOS simulator helper.\n" +
     "\n" +
     "Usage:\n" +
-    "  sim path\n" +
+    "  sim path [-o]\n" +
     "\n" +
     "Examples:\n" +
     "  sim path\n" +
@@ -24,7 +24,6 @@ let doc : String = "iOS simulator helper.\n" +
 var args = Process.arguments
 args.removeAtIndex(0) // arguments[0] is always the program_name
 let result = Docopt.parse(doc, argv: args, help: true, version: "1.0")
-print("Docopt result: \(result)")
 
 let homePath = NSHomeDirectory()
 let simFolder = "\(homePath)/Library/Developer/CoreSimulator/Devices/"
@@ -61,7 +60,7 @@ while let folder = enumerator.nextObject() as? NSURL{
         }
     }
 }
-print(lastModifiedFolder)
+//print(lastModifiedFolder)
 
 let lastSimFolder = "\(simFolder)\(lastModifiedFolder.name)/data/Containers/Data/Application"
 print(lastSimFolder)
@@ -75,4 +74,10 @@ func shell(args: String...) -> Int32 {
     return task.terminationStatus
 }
 
-exit(shell("open", lastSimFolder))
+guard let open = result["-o"] as? Bool else {
+    exit(0)
+}
+if open {
+    shell("open", lastSimFolder)
+}
+exit(0)
