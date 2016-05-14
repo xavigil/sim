@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47B617271CE7D19700DFB41F /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617161CE7D19600DFB41F /* Argument.swift */; };
+		47B617281CE7D19700DFB41F /* BranchPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617171CE7D19600DFB41F /* BranchPattern.swift */; };
+		47B617291CE7D19700DFB41F /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617181CE7D19600DFB41F /* Command.swift */; };
+		47B6172A1CE7D19700DFB41F /* Docopt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6171A1CE7D19600DFB41F /* Docopt.swift */; };
+		47B6172B1CE7D19700DFB41F /* DocoptError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6171B1CE7D19600DFB41F /* DocoptError.swift */; };
+		47B6172C1CE7D19700DFB41F /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6171C1CE7D19600DFB41F /* Either.swift */; };
+		47B6172D1CE7D19700DFB41F /* LeafPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6171E1CE7D19700DFB41F /* LeafPattern.swift */; };
+		47B6172E1CE7D19700DFB41F /* OneOrMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6171F1CE7D19700DFB41F /* OneOrMore.swift */; };
+		47B6172F1CE7D19700DFB41F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617201CE7D19700DFB41F /* Option.swift */; };
+		47B617301CE7D19700DFB41F /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617211CE7D19700DFB41F /* Optional.swift */; };
+		47B617311CE7D19700DFB41F /* OptionsShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617221CE7D19700DFB41F /* OptionsShortcut.swift */; };
+		47B617321CE7D19700DFB41F /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617231CE7D19700DFB41F /* Pattern.swift */; };
+		47B617331CE7D19700DFB41F /* Required.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617241CE7D19700DFB41F /* Required.swift */; };
+		47B617341CE7D19700DFB41F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617251CE7D19700DFB41F /* String.swift */; };
+		47B617351CE7D19700DFB41F /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B617261CE7D19700DFB41F /* Tokens.swift */; };
 		47F099B81CE52AF70054E05F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F099B71CE52AF70054E05F /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +38,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47B617161CE7D19600DFB41F /* Argument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Argument.swift; path = docopt/Argument.swift; sourceTree = "<group>"; };
+		47B617171CE7D19600DFB41F /* BranchPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BranchPattern.swift; path = docopt/BranchPattern.swift; sourceTree = "<group>"; };
+		47B617181CE7D19600DFB41F /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Command.swift; path = docopt/Command.swift; sourceTree = "<group>"; };
+		47B617191CE7D19600DFB41F /* Docopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Docopt.h; path = docopt/Docopt.h; sourceTree = "<group>"; };
+		47B6171A1CE7D19600DFB41F /* Docopt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Docopt.swift; path = docopt/Docopt.swift; sourceTree = "<group>"; };
+		47B6171B1CE7D19600DFB41F /* DocoptError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DocoptError.swift; path = docopt/DocoptError.swift; sourceTree = "<group>"; };
+		47B6171C1CE7D19600DFB41F /* Either.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Either.swift; path = docopt/Either.swift; sourceTree = "<group>"; };
+		47B6171D1CE7D19600DFB41F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = docopt/Info.plist; sourceTree = "<group>"; };
+		47B6171E1CE7D19700DFB41F /* LeafPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeafPattern.swift; path = docopt/LeafPattern.swift; sourceTree = "<group>"; };
+		47B6171F1CE7D19700DFB41F /* OneOrMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneOrMore.swift; path = docopt/OneOrMore.swift; sourceTree = "<group>"; };
+		47B617201CE7D19700DFB41F /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Option.swift; path = docopt/Option.swift; sourceTree = "<group>"; };
+		47B617211CE7D19700DFB41F /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = docopt/Optional.swift; sourceTree = "<group>"; };
+		47B617221CE7D19700DFB41F /* OptionsShortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionsShortcut.swift; path = docopt/OptionsShortcut.swift; sourceTree = "<group>"; };
+		47B617231CE7D19700DFB41F /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = docopt/Pattern.swift; sourceTree = "<group>"; };
+		47B617241CE7D19700DFB41F /* Required.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Required.swift; path = docopt/Required.swift; sourceTree = "<group>"; };
+		47B617251CE7D19700DFB41F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = docopt/String.swift; sourceTree = "<group>"; };
+		47B617261CE7D19700DFB41F /* Tokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tokens.swift; path = docopt/Tokens.swift; sourceTree = "<group>"; };
 		47F099B41CE52AF70054E05F /* sim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sim; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F099B71CE52AF70054E05F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +70,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B617151CE7D18A00DFB41F /* docopt */ = {
+			isa = PBXGroup;
+			children = (
+				47B617161CE7D19600DFB41F /* Argument.swift */,
+				47B617171CE7D19600DFB41F /* BranchPattern.swift */,
+				47B617181CE7D19600DFB41F /* Command.swift */,
+				47B617191CE7D19600DFB41F /* Docopt.h */,
+				47B6171A1CE7D19600DFB41F /* Docopt.swift */,
+				47B6171B1CE7D19600DFB41F /* DocoptError.swift */,
+				47B6171C1CE7D19600DFB41F /* Either.swift */,
+				47B6171D1CE7D19600DFB41F /* Info.plist */,
+				47B6171E1CE7D19700DFB41F /* LeafPattern.swift */,
+				47B6171F1CE7D19700DFB41F /* OneOrMore.swift */,
+				47B617201CE7D19700DFB41F /* Option.swift */,
+				47B617211CE7D19700DFB41F /* Optional.swift */,
+				47B617221CE7D19700DFB41F /* OptionsShortcut.swift */,
+				47B617231CE7D19700DFB41F /* Pattern.swift */,
+				47B617241CE7D19700DFB41F /* Required.swift */,
+				47B617251CE7D19700DFB41F /* String.swift */,
+				47B617261CE7D19700DFB41F /* Tokens.swift */,
+			);
+			name = docopt;
+			sourceTree = "<group>";
+		};
 		47F099AB1CE52AF70054E05F = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +113,7 @@
 		47F099B61CE52AF70054E05F /* sim */ = {
 			isa = PBXGroup;
 			children = (
+				47B617151CE7D18A00DFB41F /* docopt */,
 				47F099B71CE52AF70054E05F /* main.swift */,
 			);
 			path = sim;
@@ -119,7 +176,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B6172C1CE7D19700DFB41F /* Either.swift in Sources */,
+				47B617301CE7D19700DFB41F /* Optional.swift in Sources */,
+				47B617281CE7D19700DFB41F /* BranchPattern.swift in Sources */,
+				47B6172F1CE7D19700DFB41F /* Option.swift in Sources */,
+				47B617311CE7D19700DFB41F /* OptionsShortcut.swift in Sources */,
+				47B6172D1CE7D19700DFB41F /* LeafPattern.swift in Sources */,
+				47B617331CE7D19700DFB41F /* Required.swift in Sources */,
+				47B6172A1CE7D19700DFB41F /* Docopt.swift in Sources */,
+				47B617271CE7D19700DFB41F /* Argument.swift in Sources */,
 				47F099B81CE52AF70054E05F /* main.swift in Sources */,
+				47B617321CE7D19700DFB41F /* Pattern.swift in Sources */,
+				47B617351CE7D19700DFB41F /* Tokens.swift in Sources */,
+				47B6172E1CE7D19700DFB41F /* OneOrMore.swift in Sources */,
+				47B617341CE7D19700DFB41F /* String.swift in Sources */,
+				47B617291CE7D19700DFB41F /* Command.swift in Sources */,
+				47B6172B1CE7D19700DFB41F /* DocoptError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +313,7 @@
 				47F099BD1CE52AF70054E05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

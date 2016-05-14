@@ -10,6 +10,22 @@ import Foundation
 
 import Foundation
 
+let doc : String = "iOS simulator helper.\n" +
+    "\n" +
+    "Usage:\n" +
+    "  sim path\n" +
+    "\n" +
+    "Examples:\n" +
+    "  sim path\n" +
+    "\n" +
+    "Options:\n" +
+"  -h, --help\n"
+
+var args = Process.arguments
+args.removeAtIndex(0) // arguments[0] is always the program_name
+let result = Docopt.parse(doc, argv: args, help: true, version: "1.0")
+print("Docopt result: \(result)")
+
 let homePath = NSHomeDirectory()
 let simFolder = "\(homePath)/Library/Developer/CoreSimulator/Devices/"
 let simFolderUrl = NSURL(fileURLWithPath: simFolder)
